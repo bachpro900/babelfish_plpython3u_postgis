@@ -47,7 +47,7 @@ export ANTLR_CPP_SOURCE=antlr4-cpp-runtime-${ANTLR4_VERSION}-source.zip
 
 export BABELFISH_DATA=/data/babelfish
 
-# Download babelfish sources files
+# Download babelfish source files
 cd $WORKING_DIR
 wget ${BABELFISH_URL}/releases/download/${BABELFISH_TAG}/${BABELFISH_FILE}
 tar -xvzf ${BABELFISH_FILE}
