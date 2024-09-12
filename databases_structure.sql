@@ -17,9 +17,9 @@ CREATE TABLE Sales.Orders (
     Quantity INT,
     OrderDate DATE
 );
-INSERT INTO Sales.Orders VALUES (1, 101, 10, '2023-09-01');
-INSERT INTO Sales.Orders VALUES (2, 102, 5, '2023-09-02');
-INSERT INTO Sales.Orders VALUES (3, 101, 8, '2023-09-03');
+INSERT INTO Sales.Orders VALUES (1, 101, 10, '2024-09-01');
+INSERT INTO Sales.Orders VALUES (2, 102, 5, '2024-09-02');
+INSERT INTO Sales.Orders VALUES (3, 101, 8, '2024-09-03');
 
 CREATE TABLE Inventory.Products (
     ProductID INT PRIMARY KEY,
@@ -96,8 +96,8 @@ CREATE TABLE Operations.Transactions (
     TransactionDate DATE,
     MilesDriven INT
 );
-INSERT INTO Operations.Transactions VALUES (1, 201, '2023-09-01', 100);
-INSERT INTO Operations.Transactions VALUES (2, 202, '2023-09-02', 200);
+INSERT INTO Operations.Transactions VALUES (1, 201, '2024-09-01', 100);
+INSERT INTO Operations.Transactions VALUES (2, 202, '2024-09-02', 200);
 
 CREATE TABLE Fleet.Vehicles (
     VehicleID INT PRIMARY KEY,
